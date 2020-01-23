@@ -1,0 +1,205 @@
+*{box-sizing: border-box}
+
+body 
+{
+    font-family: 'Arial';
+    background-color: #fff;
+}
+
+#wrapper
+{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 32px;
+}
+
+logo
+{
+    height: auto;
+}
+
+logo h1
+{
+    font-weight: normal;
+    text-align: center;
+    color: #92d050;
+    line-height: 0px;
+}
+
+div
+{
+    border-radius: 15px;
+    background-color: #92d050;
+    height: 150px;
+    padding: 16px;
+}
+
+div h2
+{
+    font-weight: normal;
+    text-align: right;
+    color: #fff;
+}
+
+.enter
+{
+    background-color: #92d050;
+    padding: 16px;
+    border-radius: 15px;
+    height: 300px;
+}
+
+.login
+{
+    text-align: center;
+    width: 420px;
+    background-color: #92d050;
+    padding: 16px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login h1
+{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.login h2
+{
+    color: #fff;
+    text-align: left;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+
+.cenbutton
+{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+}
+
+.slideshow-container
+{
+    max-width: 500px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides
+{
+    display: none;
+}
+
+.prev, .next
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 5px 5px 5px 5px;
+    user-select: none;
+}
+
+.next
+{
+    right: 0;
+}
+
+.prev:hover, .next:hover
+{
+    background-color: rgba(0,176,80,0.8);
+}
+
+.fade
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade
+{
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade
+{
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: right;
+}
+
+li a
+{
+    display: block;
+    width: 100px;
+    color: #fff;
+    background-color: #00b050;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+li a:hover
+{
+    color: #00b050;
+    background-color: #fff;
+}
+
+.boton
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 18px;
+    border: 0;
+    text-align: center; 
+    color: #fff;
+    background-color: #00b050;
+    margin-top: 16px;
+}
+
+.boton:hover
+{
+    color: #00b050;
+    background-color: #fff;
+}
+
+.inp
+{
+    height: 22px;
+    width: 340px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+}
